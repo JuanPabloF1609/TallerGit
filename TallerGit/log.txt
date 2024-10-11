@@ -174,3 +174,29 @@ $ git commit -am "Solucion conflicto"
 
 Juan Pablo@DESKTOP-A5S4319 MINGW64 ~/TallerGit (master)
 $
+
+
+Juan Pablo@DESKTOP-A5S4319 MINGW64 ~/TallerGit/.git (GIT_DIR!)
+$ git branch
+  feature
+  hotfix
+* master
+
+Juan Pablo@DESKTOP-A5S4319 MINGW64 ~/TallerGit/.git (GIT_DIR!)
+$ git reflog
+a8b3973 (HEAD -> master) HEAD@{0}: commit (merge): Solucion conflicto
+ca4c694 HEAD@{1}: commit: Cambio en master
+a2af9c4 HEAD@{2}: checkout: moving from feature to master
+521d1e6 (feature) HEAD@{3}: commit: Cambio en feature
+47a9d10 HEAD@{4}: checkout: moving from master to feature
+a2af9c4 HEAD@{5}: cherry-pick: Hotfix
+47a9d10 HEAD@{6}: checkout: moving from hotfix to master
+5997211 (hotfix) HEAD@{7}: commit: Hotfix
+47a9d10 HEAD@{8}: checkout: moving from master to hotfix
+47a9d10 HEAD@{9}: rebase (finish): returning to refs/heads/master
+47a9d10 HEAD@{10}: rebase (start): checkout feature
+5be9f64 HEAD@{11}: reset: moving to HEAD~1
+47a9d10 HEAD@{12}: checkout: moving from feature to master
+47a9d10 HEAD@{13}: commit: Tercer commit en feature
+5be9f64 HEAD@{14}: commit: Segundo commit en feature
+c40c1b1 HEAD@{15}: commit (initial): Commit inicial
